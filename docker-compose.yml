@@ -1,0 +1,23 @@
+services:
+  laravel-docker:
+    container_name: laravel-ASM
+    build: .
+    volumes:
+      - ./laravel-app:/var/www/html
+    ports:
+      - 9000:80
+  
+  mysql_db:
+    image: mysql:8.2
+    environment:
+      MYSQL_DATABASE: Appointment_Management
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+  
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - 9001:80
+    environment:
+      - PMA_ARBITRARY=1
