@@ -17,10 +17,8 @@ The Appointment Management System is designed to streamline the process of sched
 - Appointment Reservation for Students
 - Appointment Management by Coordinators
 - Appointment Viewing for Deans
-- Email notifications for appointment confirmations and updates
 
-
-The Appointment Management System is designed to streamline the process of scheduling, managing, and viewing appointments within an academic institution. Below you will find the use case tables and a database schema to help understand the project's structure and functionality.
+Below you will find the use case tables and a database schema to help understand the project's structure and functionality.
 
 ## Use Case 
 
@@ -108,7 +106,6 @@ The Appointment Management System is designed to streamline the process of sched
 - **Postcondition:** Dean views filtered list of appointments.
 
 ## Database Schema
-
-![Database Schema](https://github.com/wesamhamad/ASM/assets/74800962/6acca770-abc5-4a25-b587-cfccdc893b74)
+![AMS_Database Schema](https://github.com/wesamhamad/ASM/assets/74800962/845a227d-e517-4875-83e8-4761382b1687)
 
 
