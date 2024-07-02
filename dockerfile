@@ -14,7 +14,9 @@ RUN apt-get update -y && apt-get install -y \
     libjpeg-dev \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
-    libpng-dev
+    libpng-dev \
+    nodejs \ # Provides the runtime for JavaScript, enabling the execution of development tools for Vite.
+    npm # Provides JavaScript dependencies
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
