@@ -38,6 +38,15 @@ class UsersTableSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            // [
+            //     'name' => 'د.سليمان السحيباني',
+            //     'email' => 'suliman@dean.com',
+            //     'password' => Hash::make('12345678'),
+            //     'role' => 'dean',
+            //     'email_verified_at' => now(),
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
 
         ]);
     }

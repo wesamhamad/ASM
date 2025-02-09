@@ -18,7 +18,13 @@ class DeansTableSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Add more deans if needed
+            [
+                'user_id' => 4, // user_id of the dean
+                'coordinator_id' => 1, // user_id of the coordinator
+                'department' => 'علوم الحاسب',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ];
 
         foreach ($deans as $deanData) {
